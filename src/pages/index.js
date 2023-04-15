@@ -1,3 +1,4 @@
+import Home from "./Home";
 import HomeOne from "./HomeOne";
 import HomeTwo from "./HomeTwo";
 import HomeThree from "./HomeThree";
@@ -18,23 +19,24 @@ import TeamDetail from "./TeamDetail";
 
 
 const routes = [
-  { path: '/', component: <HomeOne />},
-  { path: '/home-v2', component: <HomeTwo />},
-  { path: '/home-v3', component: <HomeThree />},
-  { path: '/about-v1', component: <AboutOne />},
-  { path: '/about-v2', component: <AboutTwo />},
-  { path: '/coming-soon', component: <ComingSoon />},
-  { path: '/community', component: <Community />},
-  { path: '/faq', component: <FAQ />},
-  { path: '/404', component: <Page404 />},
-  { path: '/road-map-v1', component: <RoadMapOne />},
-  { path: '/road-map-v2', component: <RoadMapTwo />},
-  { path: '/nft-item', component: <NftItem />},
-  { path: '/nft-item-details', component: <NftItemDetails />},
-  { path: '/blog', component: <Blog />},
-  { path: '/blog-details', component: <BlogDetails />},
-  { path: '/contact', component: <Contact />},
-  { path: '/team-details', component: <TeamDetail />},
+  { path: '/', component: <ComingSoon />},
+  // { path: '/home-v1', component: <HomeOne />},
+  // { path: '/home-v2', component: <HomeTwo />},
+  // { path: '/home-v3', component: <HomeThree />},
+  // { path: '/about-v1', component: <AboutOne />},
+  // { path: '/about-v2', component: <AboutTwo />},
+  // { path: '/coming-soon', component: <ComingSoon />},
+  // { path: '/community', component: <Community />},
+  // { path: '/faq', component: <FAQ />},
+  // { path: '/404', component: <Page404 />},
+  // { path: '/road-map-v1', component: <RoadMapOne />},
+  // { path: '/road-map-v2', component: <RoadMapTwo />},
+  // { path: '/nft-item', component: <NftItem />},
+  // { path: '/nft-item-details', component: <NftItemDetails />},
+  // { path: '/blog', component: <Blog />},
+  // { path: '/blog-details', component: <BlogDetails />},
+  // { path: '/contact', component: <Contact />},
+  // { path: '/team-details', component: <TeamDetail />},
 
 ]
 

@@ -4,7 +4,7 @@ import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/logo.png'
+import logo from '../../assets/images/logo/logo-64_x_64.png'
 import Button from '../button';
 
 

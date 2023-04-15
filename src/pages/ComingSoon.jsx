@@ -9,7 +9,7 @@ function ComingSoon(props) {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="header__logo">
-                            <Link to="/"><img src={require('../assets/images/logo/logo.png')} alt="" /></Link>
+                            <Link to="/"><img src={require('../assets/images/logo/logo-128_x_128.png')} alt="" /></Link>
                         </div>
                         <div className="sub-heading"><span>Site</span><span>UNnder</span><span>Reconstruction</span></div>
                         <h3 data-aos="zoom-in" data-aos-duration="800">
