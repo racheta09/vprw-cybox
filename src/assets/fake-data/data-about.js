@@ -1,8 +1,8 @@
 const dataAbout = [
     {
         id: 1,
-        title: 'Unique, 1/1 generated',
-        desc: 'Gravida viverra dui aliquet eu tortor lorem et gravida. Sed amet phasellus tellus mauris auctor rhoncus. Malesuada nisl at mauris cursus lorem mattis arcu.',
+        title: 'The Virtual Peradox Racing World Game',
+        desc: 'an ecosystem for players and creators made up of three primary components: A MARKETPLACE, A GAME, AND THE GAME ITSELF.',
         class: 'active'
     },
     {
