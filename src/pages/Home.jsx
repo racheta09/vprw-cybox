@@ -30,7 +30,7 @@ function HomeOne(props) {
 
         <About data={dataAbout} />
 
-        <Project data={dataProject} />
+        {/* <Project data={dataProject} /> */}
 
         <RoadMap data={dataRoadmap} />
 
@@ -38,11 +38,11 @@ function HomeOne(props) {
 
         <Team data={dataTeam} />
 
-        <Blog data={dataBlog} />
+        {/* <Blog data={dataBlog} /> */}
 
         <Partner data={dataPartner} />
 
-        <FAQ data={dataFaq} />
+        {/* <FAQ data={dataFaq} /> */}
         
         </div>
     );
