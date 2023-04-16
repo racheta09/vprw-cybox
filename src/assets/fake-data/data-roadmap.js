@@ -1,19 +1,22 @@
 const dataRoadmap = [
     {
         id: 1,
-        time: 'Q2 2022',
+        time: 'Q1 2023',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Community Building'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Release whitepaper'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'Marketing'
             },
             {
-                text: 'Risus eu metus'
+                text: 'Game Beta version release'
+            },
+            {
+                text: 'Launching Wallet'
             },
         ],
         positon: 'left',
@@ -21,19 +24,22 @@ const dataRoadmap = [
     },
     {
         id: 2,
-        time: 'Q1 2022',
+        time: 'Q2 2023',
         list: [
             {
-                text: 'Release website and logo'
+                text: 'Partnership with top platforms'
             },
             {
-                text: 'Grow community'
+                text: 'Exchange pre listing'
             },
             {
-                text: 'Launch the project'
+                text: 'CMC Pre listing'
             },
             {
-                text: 'Social media setup'
+                text: 'Launching Governance token'
+            },
+            {
+                text: 'CGO Listing'
             },
         ],
         positon: 'right',
@@ -41,156 +47,153 @@ const dataRoadmap = [
     },
     {
         id: 3,
-        time: 'Q4 2022',
+        time: 'Q3 2023',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Game Dapp/Bowser version Release (PC/Mobile)'
             },
             {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
+                text: 'NFT Marketplace Launching'
             },
         ],
         positon: 'left'
     },
     {
         id: 4,
-        time: 'Q3 2022',
+        time: 'Q4 2023',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Game Launching in Google play and apple store'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Multiple CEX Listing'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'Banners Ads'
             },
             {
-                text: 'Risus eu metus'
+                text: 'Big Partnership and collaboration'
+            },
+            {
+                text: 'Burning & Buyback Token From market'
             },
         ],
         positon: 'right'
     },
     {
         id: 5,
-        time: 'Q2 2022',
+        time: 'Q1 2024',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Own Exchange Launching'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Crypto Big Influencers & Celebrity Promotions'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'Game Upgrade to Ultra V2.0'
             },
             {
-                text: 'Risus eu metus'
+                text: 'Exchange Promotions & Giveaways'
             },
         ],
         positon: 'left'
     },
-    {
-        id: 6,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 7,
-        time: 'Q4 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 8,
-        time: 'Q3 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 9,
-        time: 'Q2 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 10,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
+    // {
+    //     id: 6,
+    //     time: 'Q1 2022',
+    //     list: [
+    //         {
+    //             text: 'Aenean tempor'
+    //         },
+    //         {
+    //             text: 'Fusce arcu maecenas'
+    //         },
+    //         {
+    //             text: 'Malesuada felis sem elementum'
+    //         },
+    //         {
+    //             text: 'Risus eu metus'
+    //         },
+    //     ],
+    //     positon: 'right'
+    // },
+    // {
+    //     id: 7,
+    //     time: 'Q4 2022',
+    //     list: [
+    //         {
+    //             text: 'Aenean tempor'
+    //         },
+    //         {
+    //             text: 'Fusce arcu maecenas'
+    //         },
+    //         {
+    //             text: 'Malesuada felis sem elementum'
+    //         },
+    //         {
+    //             text: 'Risus eu metus'
+    //         },
+    //     ],
+    //     positon: 'left'
+    // },
+    // {
+    //     id: 8,
+    //     time: 'Q3 2022',
+    //     list: [
+    //         {
+    //             text: 'Aenean tempor'
+    //         },
+    //         {
+    //             text: 'Fusce arcu maecenas'
+    //         },
+    //         {
+    //             text: 'Malesuada felis sem elementum'
+    //         },
+    //         {
+    //             text: 'Risus eu metus'
+    //         },
+    //     ],
+    //     positon: 'right'
+    // },
+    // {
+    //     id: 9,
+    //     time: 'Q2 2022',
+    //     list: [
+    //         {
+    //             text: 'Aenean tempor'
+    //         },
+    //         {
+    //             text: 'Fusce arcu maecenas'
+    //         },
+    //         {
+    //             text: 'Malesuada felis sem elementum'
+    //         },
+    //         {
+    //             text: 'Risus eu metus'
+    //         },
+    //     ],
+    //     positon: 'left'
+    // },
+    // {
+    //     id: 10,
+    //     time: 'Q1 2022',
+    //     list: [
+    //         {
+    //             text: 'Aenean tempor'
+    //         },
+    //         {
+    //             text: 'Fusce arcu maecenas'
+    //         },
+    //         {
+    //             text: 'Malesuada felis sem elementum'
+    //         },
+    //         {
+    //             text: 'Risus eu metus'
+    //         },
+    //     ],
+    //     positon: 'right'
+    // },
 ]
 
 export default dataRoadmap;

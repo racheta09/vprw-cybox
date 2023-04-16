@@ -1,19 +1,19 @@
 const dataAbout = [
     {
         id: 1,
-        title: 'The Virtual Peradox Racing World Game',
-        desc: 'an ecosystem for players and creators made up of three primary components: A MARKETPLACE, A GAME, AND THE GAME ITSELF.',
+        title: 'Marketplace',
+        desc: 'Players can use the token to compete in tournaments, buy cars, and New skins, and perform mechanical modifications.',
         class: 'active'
     },
     {
         id: 2,
-        title: '140+ traits in 16 categories',
-        desc: 'Ornare faucibus urna, netus ut. Ac vulputate ornare donec orci sed gravida senectus. Felis quis morbi vivamus est eget sapien magnis quis.',
+        title: 'Build',
+        desc: 'Players will also be able to build their garage, buy and sell automobiles, rent out garage space, and Auction their assets.',
     },
     {
         id: 3,
-        title: 'Usage rights included',
-        desc: 'Ac, bibendum duis gravida nullam. At amet nibh platea nibh interdum non, egestas bibendum iaculis. Etiam tristique ultricies tristique ullamcorper donec eget odio ut.',
+        title: 'Race',
+        desc: 'In the game, players will compete in tournaments for which they will be paid, as well as a race on Tracks all across the metaverse.',
     },
 ]
 

@@ -1,6 +1,6 @@
-import bgImg1 from '../video-car.mp4';
-import bgImg2 from '../video-car.mp4';
-import bgImg3 from '../video-car.mp4';
+import bgImg1 from '../images/background/bg-1.jpg';
+import bgImg2 from '../images/background/bg-3.jpg';
+import bgImg3 from '../images/background/bg-4.jpg';
 import img1 from '../images/common/itemslider.png';
 
 const dataSlider = [

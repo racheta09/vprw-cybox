@@ -21,10 +21,12 @@ function SliderItem(props) {
         <div className={`box-slider ${item.classAction}`}>
             <video
                 className="bg-slider"
-                src={item.bgImg}
+                // src={item.bgImg}
+                src="/video-car.mp4"
                 alt="vprw"
                 loop
                 autoPlay
+                muted
             />
             <div className="box-slider__main">
                 <div className="container">
