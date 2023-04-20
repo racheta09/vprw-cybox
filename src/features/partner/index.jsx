@@ -56,7 +56,7 @@ function Partner(props) {
                                     <SwiperSlide key={idx}>
                                         <div
                                             className="image"
-                                            style={{ backgroundColor: "white" }}
+                                            // style={{ backgroundColor: "white" }}
                                         >
                                             <img src={item.img} alt="Crybox" />
                                         </div>
