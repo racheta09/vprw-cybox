@@ -35,7 +35,7 @@ function SliderItem(props) {
                             <div className="content-box">
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
-                                <div className="wrap-btn">
+                                {/* <div className="wrap-btn">
                                     <Link
                                         to="#"
                                         className="tf-button-st2 btn-effect"
@@ -56,7 +56,7 @@ function SliderItem(props) {
                                             watch video
                                         </span>
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
