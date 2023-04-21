@@ -48,7 +48,7 @@ const Header = () => {
                                     <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
                                     
                                     >
-                                        <Link to={data.links}>{data.name}</Link>
+                                        <a href={data.links}>{data.name}</a>
                                         {
                                             data.namesub &&
                                             <ul className="sub-menu">

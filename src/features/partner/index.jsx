@@ -27,7 +27,7 @@ function Partner(props) {
                             data-aos-duration="800"
                         >
                             <p className="h8 sub-title">Partners</p>
-                            <h4 className="title">VPRW INVESTORS</h4>
+                            <h4 className="title">VPRW PARTNERS</h4>
                         </div>
                     </div>
                     <div className="col-md-12">

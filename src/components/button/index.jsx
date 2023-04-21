@@ -13,7 +13,7 @@ Button.propTypes = {
 function Button(props) {
     const {title , path , onClick} = props;
     return (
-        <a className="tf-button btn-effect" href={path} target='_blank' rel='noreferrer' onClick={onClick}>   
+        <a className="tf-button btn-effect" href={path} rel='noreferrer' onClick={onClick}>   
             <span className="boder-fade"></span>                                     
             <span className="effect">{title}</span>
         </a>

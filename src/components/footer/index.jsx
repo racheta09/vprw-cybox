@@ -37,7 +37,7 @@ function Footer(props) {
                 <img src={img1} alt="" className="bg1" />
                 <img src={img2} alt="" className="bg2" />
                 <div className="container">
-                    {/* <ul className="widget-social">
+                    <ul className="widget-social">
                         <li>
                             <Link to="#">
                                 <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@ function Footer(props) {
                                 </svg>
                             </Link>
                         </li>
-                    </ul> */}
+                    </ul>
                     {/* <h5 className="heading">don’t miss out, join now for early access</h5>
                     <p>Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut </p>
                     <form action="#" id="subscribe-form">
