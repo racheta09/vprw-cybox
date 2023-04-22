@@ -1,25 +1,27 @@
 import Home from "./Home";
-import HomeOne from "./HomeOne";
-import HomeTwo from "./HomeTwo";
-import HomeThree from "./HomeThree";
-import AboutOne from "./AboutOne";
-import AboutTwo from "./AboutTwo";
-import ComingSoon from "./ComingSoon";
-import Community from "./Community";
-import FAQ from "./FAQ";
-import Page404 from "./404";
-import RoadMapOne from "./RoadMapOne";
-import RoadMapTwo from "./RoadMapTwo";
-import NftItem from "./NftItem";
-import NftItemDetails from "./NftItemDetails";
-import Blog from "./Blog";
-import BlogDetails from "./BlogDetails";
-import Contact from "./Contact";
-import TeamDetail from "./TeamDetail";
+import Wallet from "./Wallet";
+// import HomeOne from "./HomeOne";
+// import HomeTwo from "./HomeTwo";
+// import HomeThree from "./HomeThree";
+// import AboutOne from "./AboutOne";
+// import AboutTwo from "./AboutTwo";
+// import ComingSoon from "./ComingSoon";
+// import Community from "./Community";
+// import FAQ from "./FAQ";
+// import Page404 from "./404";
+// import RoadMapOne from "./RoadMapOne";
+// import RoadMapTwo from "./RoadMapTwo";
+// import NftItem from "./NftItem";
+// import NftItemDetails from "./NftItemDetails";
+// import Blog from "./Blog";
+// import BlogDetails from "./BlogDetails";
+// import Contact from "./Contact";
+// import TeamDetail from "./TeamDetail";
 
 
 const routes = [
   { path: '/', component: <Home />},
+  { path: '/wallet', component: <Wallet />},
   // { path: '/home-v1', component: <HomeOne />},
   // { path: '/home-v2', component: <HomeTwo />},
   // { path: '/home-v3', component: <HomeThree />},
