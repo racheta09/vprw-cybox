@@ -12,9 +12,9 @@ function Work(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'How we work',
-        title: 'BECOME OUR MEMBER',
-        desc: 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+        subtitle: 'How game works',
+        title: 'Start Playing',
+        desc: 'The Virtual Peradox Racing World play-to-earn game with NFT mechanism is an exciting and unique game.'
     })
     return (
         <section className="tf-section how-we-work">

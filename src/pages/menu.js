@@ -1,13 +1,13 @@
 const menus = [
     {
         id: 1,
-        name: 'Home',
-        links: '#',
+        name: "Home",
+        links: "/",
         // namesub: [
         //     {
         //         id: 1,
         //         sub: 'Home 01',
-        //         links: '/'
+        //         links: '/home-v1'
         //     },
         //     {
         //         id: 2,
@@ -23,8 +23,30 @@ const menus = [
     },
     {
         id: 2,
-        name: 'About',
-        links: '#',
+        name: "Wallet",
+        links: "/wallet",
+        // namesub: [
+        //     {
+        //         id: 1,
+        //         sub: 'Home 01',
+        //         links: '/home-v1'
+        //     },
+        //     {
+        //         id: 2,
+        //         sub: 'Home 02',
+        //         links: '/home-v2'
+        //     },
+        //     {
+        //         id: 3,
+        //         sub: 'Home 03',
+        //         links: '/home-v3'
+        //     },
+        // ]
+    },
+    {
+        id: 3,
+        name: "About",
+        links: "/#about",
         // namesub: [
         //     {
         //         id: 1,
@@ -65,26 +87,9 @@ const menus = [
         // ]
     },
     {
-        id: 3,
-        name: 'Road Map',
-        links: '#',
-        // namesub: [
-        //     {
-        //         id: 1,
-        //         sub: 'Road Map 01',
-        //         links: '/road-map-v1'
-        //     },
-        //     {
-        //         id: 2,
-        //         sub: 'Road Map 02',
-        //         links: '/road-map-v2'
-        //     },
-        // ]
-    },
-    {
         id: 4,
-        name: 'Nft',
-        links: '#',
+        name: "Nft",
+        links: "/#nft",
         // namesub: [
         //     {
         //         id: 1,
@@ -98,29 +103,45 @@ const menus = [
         //     },
         // ],
     },
+    {
+        id: 5,
+        name: "Road Map",
+        links: "/#roadmap",
+        // namesub: [
+        //     {
+        //         id: 1,
+        //         sub: 'Road Map 01',
+        //         links: '/road-map-v1'
+        //     },
+        //     {
+        //         id: 2,
+        //         sub: 'Road Map 02',
+        //         links: '/road-map-v2'
+        //     },
+        // ]
+    },
     // {
     //     id: 5,
     //     name: 'Blog',
     //     links: '#',
-    //     namesub: [
-    //         {
-    //             id: 1,
-    //             sub: 'Our Blog',
-    //             links: '/blog'
-    //         },
-    //         {
-    //             id: 2,
-    //             sub: 'Blog Details',
-    //             links: '/blog-details'
-    //         },
-    //     ],
+    //     // namesub: [
+    //     //     {
+    //     //         id: 1,
+    //     //         sub: 'Our Blog',
+    //     //         links: '/blog'
+    //     //     },
+    //     //     {
+    //     //         id: 2,
+    //     //         sub: 'Blog Details',
+    //     //         links: '/blog-details'
+    //     //     },
+    //     // ],
     // },
-    {
-        id: 6,
-        name: 'Contact',
-        links: '/#'
-    },
-    
+    // {
+    //     id: 6,
+    //     name: 'Contact',
+    //     links: '/contact'
+    // },
 ]
 
-export default menus;
+export default menus

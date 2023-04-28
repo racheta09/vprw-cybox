@@ -14,12 +14,12 @@ function RoadMap(props) {
     const [dataBlock] = useState(
         {
             subtitle: 'ROADMAP',
-            title: 'cybox Timeline'
+            title: 'VPRW Timeline'
         }
     )
 
     return (
-        <section className="tf-section tf-roadmap">
+        <section className="tf-section tf-roadmap" id='roadmap'>
             <div className="overlay"></div>
             <div className="container">
                 <div className="row">

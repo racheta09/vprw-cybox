@@ -13,7 +13,7 @@ Project.propTypes = {
 function Project(props) {
     const {data} = props;
     return (
-        <section className="tf-section tf-project">
+        <section className="tf-section tf-project" id='nft'>
             <div className="container-fluid">
 
             <Swiper

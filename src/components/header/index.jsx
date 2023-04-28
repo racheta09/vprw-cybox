@@ -48,7 +48,7 @@ const Header = () => {
                                     <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
                                     
                                     >
-                                        <Link to={data.links}>{data.name}</Link>
+                                        <a href={data.links}>{data.name}</a>
                                         {
                                             data.namesub &&
                                             <ul className="sub-menu">
@@ -65,7 +65,7 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                    <Button title='join discord' path='/contact' />
+                    <Button title='whitepaper' path='https://drive.google.com/file/d/108Yvvv674W1PBR3Dixgh7u0zvSRpqv_V/view' />
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>
