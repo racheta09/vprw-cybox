@@ -6,7 +6,7 @@ function Wallet(props) {
             <section className="page-title">
                 <div className="image">
                     <img
-                        src={require("../assets/images/post/imgpost10.jpg")}
+                        src={require("../assets/images/post/Picsart_23-04-15_16-42-22-167.jpg")}
                         alt=""
                     />
                 </div>
@@ -38,7 +38,7 @@ function Wallet(props) {
                                 </p>
                                 <div className="image">
                                     <img
-                                        src={require("../assets/images/post/imgpost9.jpg")}
+                                        src={require("../assets/images/post/VPW WALLET.jpg")}
                                         alt=""
                                     />
                                 </div>
@@ -103,6 +103,19 @@ function Wallet(props) {
                                     assets and access the latest
                                     blockchain-based applications
                                 </p>
+                            </div>
+
+                            <div className="image">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.vpw.wallet"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <img
+                                        src={require("../assets/images/post/images__6_-removebg-preview.png")}
+                                        alt=""
+                                    />
+                                </a>
                             </div>
                         </article>
                     </div>

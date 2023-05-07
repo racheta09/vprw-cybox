@@ -1,4 +1,4 @@
-import img0 from '../images/team/Peradox Medisitti - Ceo.jpg';
+import img0 from '../images/team/Adam - Ceo.jpg';
 import img1 from '../images/team/Tom Hanks.jpg';
 import img2 from '../images/team/Gail Forcewind.jpg';
 import img3 from '../images/team/Dontela Marvine.jpg';
@@ -12,8 +12,8 @@ import img8 from '../images/team/Tony.jpg';
 const dataTeam = [
     {
         id: 0,
-        img: img6,
-        name: 'Peradox Medisitti',
+        img: img0,
+        name: 'Adam',
         position: 'CEO',
         listsocial: [
             // {
