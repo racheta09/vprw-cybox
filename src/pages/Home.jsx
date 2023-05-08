@@ -21,6 +21,8 @@ import dataPartner from "../assets/fake-data/data-partner"
 import FAQ from "../features/faq"
 import dataFaq from "../assets/fake-data/data-faq"
 
+import img1 from "../assets/images/TOKENOMICS.jpg"
+
 function HomeOne(props) {
     return (
         <div className="home-1">
@@ -37,7 +39,34 @@ function HomeOne(props) {
             <Team data={dataTeam} />
 
             {/* <Blog data={dataBlog} /> */}
-
+            <section className="tf-section tf-about" id="about">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-5 col-md-12">
+                            <div
+                                className="content-about mobie-40"
+                                data-aos="fade-up"
+                                data-aos-duration="800"
+                            >
+                                <div className="tf-title st2">
+                                    <p className="h8 sub-title">Token </p>
+                                    <h4 className="title">Tokenomics</h4>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div className="col-xl-7 col-md-12">
+                            <div
+                                className="wrap-about"
+                                data-aos="fade-up"
+                                data-aos-duration="800"
+                            >
+                                <img src={img1} alt="tokenomics" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Partner data={dataPartner} />
 
             {/* <FAQ data={dataFaq} /> */}

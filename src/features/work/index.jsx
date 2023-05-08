@@ -14,7 +14,7 @@ function Work(props) {
     const [dataBlock] = useState({
         subtitle: 'How game works',
         title: 'Start Playing',
-        desc: 'The Virtual Peradox Racing World play-to-earn game with NFT mechanism is an exciting and unique game.'
+        desc: 'The Virtual Racing Peradox World play-to-earn game with NFT mechanism is an exciting and unique game.'
     })
     return (
         <section className="tf-section how-we-work">

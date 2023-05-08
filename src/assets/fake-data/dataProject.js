@@ -12,53 +12,53 @@ import img10 from "../images/nfts/Car 1 GIF.gif"
 const dataProject = [
     {
         id: 1,
-        title: "VPRW #01",
+        title: "VPW #01",
         img: img1,
     },
     {
         id: 2,
-        title: "VPRW #02",
+        title: "VPW #02",
         img: img2,
     },
     {
         id: 3,
-        title: "VPRW #03",
+        title: "VPW #03",
         img: img3,
     },
     {
         id: 4,
-        title: "VPRW #04",
+        title: "VPW #04",
         img: img4,
     },
     {
         id: 5,
-        title: "VPRW #05",
+        title: "VPW #05",
         img: img5,
     },
     {
         id: 6,
-        title: "VPRW #06",
+        title: "VPW #06",
         img: img6,
     },
     {
         id: 7,
-        title: "VPRW #07",
+        title: "VPW #07",
         img: img7,
     },
     {
         id: 8,
-        title: "VPRW #08",
+        title: "VPW #08",
         img: img8,
     },
 
     {
         id: 9,
-        title: "VPRW #09",
+        title: "VPW #09",
         img: img9,
     },
     {
         id: 10,
-        title: "VPRW #10",
+        title: "VPW #10",
         img: img10,
     },
 ]

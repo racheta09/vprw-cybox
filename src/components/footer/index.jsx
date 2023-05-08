@@ -153,7 +153,7 @@ function Footer(props) {
                 <div className="container">
                     <div className="wrap-fx">
                         <div className="Copyright">
-                            <p>VPRW 2023 - All rights reserved</p>
+                            <p>VPW 2023 - All rights reserved</p>
                         </div>
                         <ul className="list">
                             <li>

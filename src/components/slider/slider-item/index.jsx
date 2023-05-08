@@ -23,7 +23,7 @@ function SliderItem(props) {
                 className="bg-slider"
                 // src={item.bgImg}
                 src="/video-car.mp4"
-                alt="vprw"
+                alt="VPW"
                 loop
                 autoPlay
                 muted
@@ -61,7 +61,7 @@ function SliderItem(props) {
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="image">
-                                <img src={item.img} alt="vprw" />
+                                <img src={item.img} alt="VPW" />
                             </div>
                         </div>
                     </div>

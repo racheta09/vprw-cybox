@@ -13,8 +13,8 @@ function About(props) {
 
     const [dataBlock] = useState({
         subtitle: "About us",
-        title: "What is VPRW?",
-        desc: "The Virtual Peradox Racing World Game is, at its core, an ecosystem for players and creators made up of three primary Components: MARKETPLACE, BUILD AND RACE.",
+        title: "What is VPW?",
+        desc: "The Virtual Racing Peradox World Game is, at its core, an ecosystem for players and creators made up of three primary Components: MARKETPLACE, BUILD AND RACE.",
     })
 
     return (
