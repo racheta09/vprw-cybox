@@ -21,9 +21,57 @@ import dataPartner from "../assets/fake-data/data-partner"
 import FAQ from "../features/faq"
 import dataFaq from "../assets/fake-data/data-faq"
 
-import img1 from "../assets/images/TOKENOMICS.jpg"
+import img1 from "../assets/images/tokenomics.png"
+import RoadMapItem from "../features/roadmap/roadmap-item"
 
 function HomeOne(props) {
+    const tokenomics = {
+        id: 1,
+        time: "TOTAL SUPPLY - 599M",
+        list: [
+            {
+                text: "PRESALE 20%",
+            },
+            {
+                text: "INITIAL DEX LP 12% ",
+            },
+            {
+                text: "P2E REWARDS 15%",
+            },
+            {
+                text: "WALLET RESERVE 5%",
+            },
+            {
+                text: "MARKETING 1%",
+            },
+            {
+                text: "Airdrop 1%",
+            },
+            {
+                text: "Collaborators 5%",
+            },
+            {
+                text: "SCO 5%",
+            },
+            {
+                text: "Exchange LP 5%",
+            },
+            {
+                text: "Development 5%",
+            },
+            {
+                text: "Ecosystem 5%",
+            },
+            {
+                text: "Initial Burning 1%",
+            },
+            {
+                text: "Locked Reserve 20%",
+            },
+        ],
+        positon: "left",
+        style: "normal",
+    }
     return (
         <div className="home-1">
             <Slider data={dataSlider} />
@@ -52,16 +100,19 @@ function HomeOne(props) {
                                     <p className="h8 sub-title">Token </p>
                                     <h4 className="title">Tokenomics</h4>
                                 </div>
-                                <p></p>
+                                <h6>Buy Fee: 1% Sell Fee: 1%</h6>
+                                <p>
+                                    <RoadMapItem item={tokenomics} />
+                                </p>
                             </div>
                         </div>
                         <div className="col-xl-7 col-md-12">
                             <div
-                                className="wrap-about"
+                                className="wrap-tokenomics"
                                 data-aos="fade-up"
                                 data-aos-duration="800"
                             >
-                                <img src={img1} alt="tokenomics" />
+                            <img src={img1} alt="tokenomics" width={"800px"}/>
                             </div>
                         </div>
                     </div>
