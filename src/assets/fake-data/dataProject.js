@@ -7,7 +7,7 @@ import img6 from "../images/nfts/Car 6 GIF.gif"
 import img7 from "../images/nfts/CAR GIF 7.gif"
 import img8 from "../images/nfts/CAR GIF 8.gif"
 import img9 from "../images/nfts/CAR GIF 9.gif"
-import img10 from "../images/nfts/Car 1 GIF.gif"
+import img10 from "../images/nfts/Car-10-GIF.gif"
 
 const dataProject = [
     {
