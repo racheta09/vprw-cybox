@@ -97,12 +97,32 @@ function HomeOne(props) {
                                 data-aos-duration="800"
                             >
                                 <div className="tf-title st2">
-                                    <p className="h8 sub-title">Token </p>
+                                    <p className="h8 sub-title">Token</p>
                                     <h4 className="title">Tokenomics</h4>
                                 </div>
                                 <h6>Buy Fee: 1% Sell Fee: 1%</h6>
                                 <p>
-                                    <RoadMapItem item={tokenomics} />
+                                    <div
+                                        key={tokenomics.id}
+                                        className={`rm-box ${tokenomics.positon}`}
+                                        data-aos="zoom-in"
+                                        data-aos-duration="1200"
+                                    >
+                                        <div
+                                            className={`${tokenomics.style}`}
+                                        >
+                                            <h5>{tokenomics.time}</h5>
+                                            <ul>
+                                                {tokenomics.list.map(
+                                                    (li, idx) => (
+                                                        <li key={idx}>
+                                                            {li.text}
+                                                        </li>
+                                                    )
+                                                )}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </p>
                             </div>
                         </div>
@@ -112,7 +132,11 @@ function HomeOne(props) {
                                 data-aos="fade-up"
                                 data-aos-duration="800"
                             >
-                            <img src={img1} alt="tokenomics" width={"800px"}/>
+                                <img
+                                    src={img1}
+                                    alt="tokenomics"
+                                    width={"800px"}
+                                />
                             </div>
                         </div>
                     </div>

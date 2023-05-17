@@ -28,8 +28,8 @@ body {
     // background-color: $bgr-body;
     background-image: linear-gradient(
         to top right,
-        rgb(94, 160, 236),
-        rgb(42, 112, 9)
+        rgb(243, 12, 12),
+        rgb(228, 231, 16)
     );
     position: relative;
     overflow-x: hidden;
@@ -39,6 +39,9 @@ img {
     max-width: 100%;
     height: auto;
     transform: scale(1);
+}
+p{
+    color: black;
 }
 
 h1,
@@ -50,7 +53,7 @@ h6 {
     font-family: "Chakra Petch", sans-serif;
     font-weight: 700;
     color: $white;
-    background: -webkit-linear-gradient(#023119, #7413f3);
+    background: -webkit-linear-gradient(#c02d08, #13f326);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -34,7 +34,7 @@ function SliderItem(props) {
                         <div className="col-xl-6 col-md-12">
                             <div className="content-box">
                                 <h1 className="title">{item.title}</h1>
-                                <p className="sub-title">{item.desc}</p>
+                                <p className="sub-title" style={{color:"red"}}>{item.desc}</p>
                                 {/* <div className="wrap-btn">
                                     <Link
                                         to="#"
