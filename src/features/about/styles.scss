@@ -1,21 +1,19 @@
-@use  '../../scss/' as *;
+@use "../../scss/" as *;
 
 .tf-about {
     padding: 80px 0 55px;
     .tf-title {
-
         &.st2 {
             margin-bottom: 17px;
             text-align: left;
         }
     }
     .content-about {
-        
         .social {
             @include flex2;
             margin-top: 47px;
             li {
-                @include flex(center,center);
+                @include flex(center, center);
                 margin-right: 24px;
                 width: 68px;
                 height: 68px;
@@ -63,7 +61,6 @@
     place-items: center;
     // margin-top: 150px;
     // margin-left: 150px;
-    
 }
 
 .wrap-about {
@@ -74,13 +71,11 @@
     &.style2 {
         .box-text {
             margin-bottom: 30px;
-
         }
     }
-    
 }
 
-.home-1 .wrap-about{
+.home-1 .wrap-about {
     padding-left: 170px;
 
     @include tablet {
@@ -107,11 +102,12 @@
     }
 }
 
-.home-3 .tf-about .tf-button{
+.home-3 .tf-about .tf-button {
     margin-top: 19px;
 }
 
-.about .tf-about , .about-v2 .tf-about{
+.about .tf-about,
+.about-v2 .tf-about {
     padding: 80px 0 0;
     .content-about {
         margin-bottom: 61px;
@@ -123,7 +119,7 @@
     .tf-button {
         margin-top: 19px;
     }
-} 
+}
 
 .about-v2 .tf-about {
     padding-bottom: 80px;
@@ -142,5 +138,4 @@
     .tf-project {
         padding: 58px 0 80px;
     }
-    
 }

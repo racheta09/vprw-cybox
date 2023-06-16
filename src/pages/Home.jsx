@@ -14,139 +14,128 @@ import Work from "../features/work"
 import dataWork from "../assets/fake-data/data-work"
 import Team from "../features/team"
 import dataTeam from "../assets/fake-data/data-team"
-import Blog from "../features/blog"
-import dataBlog from "../assets/fake-data/data-blog"
+// import Blog from "../features/blog"
+// import dataBlog from "../assets/fake-data/data-blog"
 import Partner from "../features/partner"
 import dataPartner from "../assets/fake-data/data-partner"
-import FAQ from "../features/faq"
-import dataFaq from "../assets/fake-data/data-faq"
+// import FAQ from "../features/faq"
+// import dataFaq from "../assets/fake-data/data-faq"
 
 import img1 from "../assets/images/tokenomics.png"
-import RoadMapItem from "../features/roadmap/roadmap-item"
 
 function HomeOne(props) {
-    const tokenomics = {
-        id: 1,
-        time: "TOTAL SUPPLY - 599M",
-        list: [
-            {
-                text: "PRESALE 20%",
-            },
-            {
-                text: "INITIAL DEX LP 12% ",
-            },
-            {
-                text: "P2E REWARDS 15%",
-            },
-            {
-                text: "WALLET RESERVE 5%",
-            },
-            {
-                text: "MARKETING 1%",
-            },
-            {
-                text: "Airdrop 1%",
-            },
-            {
-                text: "Collaborators 5%",
-            },
-            {
-                text: "SCO 5%",
-            },
-            {
-                text: "Exchange LP 5%",
-            },
-            {
-                text: "Development 5%",
-            },
-            {
-                text: "Ecosystem 5%",
-            },
-            {
-                text: "Initial Burning 1%",
-            },
-            {
-                text: "Locked Reserve 20%",
-            },
-        ],
-        positon: "left",
-        style: "normal",
-    }
-    return (
-        <div className="home-1">
-            <Slider data={dataSlider} />
+  const tokenomics = {
+    id: 1,
+    time: "TOTAL SUPPLY - 599M",
+    list: [
+      {
+        text: "Presale : 17%",
+      },
+      {
+        text: "Liquidity: 9.996%",
+      },
+      {
+        text: "Pinksale: 0.34%",
+      },
+      {
+        text: "Game: 15%",
+      },
+      {
+        text: "Wallet reserve: 5%",
+      },
+      {
+        text: "Marketing: 5%",
+      },
+      {
+        text: "Partnership: 5%",
+      },
+      {
+        text: "SCO 5%",
+      },
+      {
+        text: "Exchange: 5%",
+      },
+      {
+        text: "Team: 5%",
+      },
+      {
+        text: "Ecosystem 5%",
+      },
+      {
+        text: "Project Locked: 20%",
+      },
+      {
+        text: "Initial Burn: 2.664%",
+      },
+    ],
+    positon: "left",
+    style: "normal",
+  }
+  return (
+    <div className="home-1">
+      <Slider data={dataSlider} />
 
-            <About data={dataAbout} />
+      <About data={dataAbout} />
 
-            <Project data={dataProject} />
+      <Project data={dataProject} />
 
-            <RoadMap data={dataRoadmap} />
+      <RoadMap data={dataRoadmap} />
 
-            <Work data={dataWork} />
+      <Work data={dataWork} />
 
-            <Team data={dataTeam} />
+      <Team data={dataTeam} />
 
-            {/* <Blog data={dataBlog} /> */}
-            <section className="tf-section tf-about" id="about">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-5 col-md-12">
-                            <div
-                                className="content-about mobie-40"
-                                data-aos="fade-up"
-                                data-aos-duration="800"
-                            >
-                                <div className="tf-title st2">
-                                    <p className="h8 sub-title">Token</p>
-                                    <h4 className="title">Tokenomics</h4>
-                                </div>
-                                <h6>Buy Fee: 1% Sell Fee: 1%</h6>
-                                <p>
-                                    <div
-                                        key={tokenomics.id}
-                                        className={`rm-box ${tokenomics.positon}`}
-                                        data-aos="zoom-in"
-                                        data-aos-duration="1200"
-                                    >
-                                        <div
-                                            className={`${tokenomics.style}`}
-                                        >
-                                            <h5>{tokenomics.time}</h5>
-                                            <ul>
-                                                {tokenomics.list.map(
-                                                    (li, idx) => (
-                                                        <li key={idx}>
-                                                            {li.text}
-                                                        </li>
-                                                    )
-                                                )}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-xl-7 col-md-12">
-                            <div
-                                className="wrap-tokenomics"
-                                data-aos="fade-up"
-                                data-aos-duration="800"
-                            >
-                                <img
-                                    src={img1}
-                                    alt="tokenomics"
-                                    width={"800px"}
-                                />
-                            </div>
-                        </div>
-                    </div>
+      {/* <Blog data={dataBlog} /> */}
+      <section className="tf-section tf-about" id="about">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-5 col-md-12">
+              <div
+                className="content-about mobie-40"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
+                <div className="tf-title st2">
+                  <p className="h8 sub-title">Token</p>
+                  <h4 className="title">Tokenomics</h4>
                 </div>
-            </section>
-            <Partner data={dataPartner} />
-
-            {/* <FAQ data={dataFaq} /> */}
+                <h6>Buy Fee: 1% Sell Fee: 1%</h6>
+                <p>
+                  <div
+                    key={tokenomics.id}
+                    className={`rm-box ${tokenomics.positon}`}
+                    data-aos="zoom-in"
+                    data-aos-duration="1200"
+                  >
+                    <div className={`${tokenomics.style}`}>
+                      <h5>{tokenomics.time}</h5>
+                      <ul>
+                        {tokenomics.list.map((li, idx) => (
+                          <li key={idx}>{li.text}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-7 col-md-12">
+              <div
+                className="wrap-tokenomics"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
+                <img src={img1} alt="tokenomics" width={"800px"} />
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </section>
+      <Partner data={dataPartner} />
+
+      {/* <FAQ data={dataFaq} /> */}
+    </div>
+  )
 }
 
 export default HomeOne
