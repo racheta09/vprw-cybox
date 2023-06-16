@@ -48,6 +48,16 @@ function SliderItem(props) {
                   >
                     <span className="effect">PinkSale</span>
                   </a>
+                  <a
+                    href="https://www.youtube.com/@VirtualRacePeradox"
+                    className="tf-button-st2 btn-effect"
+                    // data-toggle="modal"
+                    // data-target="#popup_bid"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="effect">Youtube</span>
+                  </a>
                   {/* <button
                     to="#"
                     className="tf-button btn-effect popup-youtube"
