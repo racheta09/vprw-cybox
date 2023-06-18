@@ -47,7 +47,7 @@ const dataPartner = [
   },
   {
     img: img8,
-    link: "https://www.tarntor.xyz/",
+    link: "https://www.trantor.xyz/",
   },
   // {
   //     img: img9,
