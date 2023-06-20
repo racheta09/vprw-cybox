@@ -6,9 +6,9 @@ import img5 from "../images/logo/pinksale.png"
 import img6 from "../images/logo/dextools.png"
 import img7 from "../images/logo/chaterium.jpg"
 import img8 from "../images/logo/tarntor.png"
-import img9 from "../images/logo/logo9.png"
-import img10 from "../images/logo/logo10.png"
-import img11 from "../images/logo/logo11.png"
+import img9 from "../images/logo/peradox.png"
+import img10 from "../images/logo/whalecoin.jpg"
+import img11 from "../images/logo/arcdex.jpg"
 import img12 from "../images/logo/logo12.png"
 import img13 from "../images/logo/logo13.png"
 import img14 from "../images/logo/logo14.png"
@@ -49,15 +49,19 @@ const dataPartner = [
     img: img8,
     link: "https://www.trantor.xyz/",
   },
-  // {
-  //     img: img9,
-  // },
-  // {
-  //     img: img10,
-  // },
-  // {
-  //     img: img11,
-  // },
+  {
+    img: img9,
+    link: "https://www.peradox.life/",
+    
+  },
+  {
+    img: img10,
+    link: "https://whalecointalk.com/",
+  },
+  {
+    img: img11,
+    link: "https://arcdex.io/",
+  },
   // {
   //     img: img12,
   // },

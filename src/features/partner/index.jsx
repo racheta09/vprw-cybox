@@ -52,7 +52,7 @@ function Partner(props) {
                   },
                 }}
               >
-                {data.slice(0, 4).map((item, idx) => (
+                {data.slice(0, 6).map((item, idx) => (
                   <SwiperSlide key={idx}>
                     <div
                       className="image"
@@ -81,11 +81,11 @@ function Partner(props) {
                   },
                 }}
               >
-                {data.slice(4, 8).map((item, idx) => (
+                {data.slice(6, 12).map((item, idx) => (
                   <SwiperSlide key={idx}>
                     <div className="image">
                       <a href={item.link} target="_blank" rel="noreferrer">
-                        <img src={item.img} alt="Crybox" />
+                        <img src={item.img} alt="partners" />
                       </a>
                     </div>
                   </SwiperSlide>
@@ -107,10 +107,10 @@ function Partner(props) {
                   },
                 }}
               >
-                {data.slice(10, 18).map((item, idx) => (
+                {data.slice(12, 18).map((item, idx) => (
                   <SwiperSlide key={idx}>
                     <div className="image">
-                      <img src={item.img} alt="Crybox" />
+                      <img src={item.img} alt="partners" />
                     </div>
                   </SwiperSlide>
                 ))}
