@@ -35,8 +35,9 @@ function Partner(props) {
               className="item-parner"
               data-aos="fade-up"
               data-aos-duration="800"
+              style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "20px" }}
             >
-              <Swiper
+              {/* <Swiper
                 modules={[Scrollbar, A11y]}
                 spaceBetween={60}
                 scrollbar={{ draggable: true }}
@@ -51,21 +52,22 @@ function Partner(props) {
                     slidesPerView: 6,
                   },
                 }}
-              >
-                {data.slice(0, 6).map((item, idx) => (
-                  <SwiperSlide key={idx}>
+              > */}
+                {data.map((item, idx) => (
+                  // <SwiperSlide key={idx}>
                     <div
-                      className="image"
+                    className="image"
+                    key={idx}
                       // style={{ backgroundColor: "white" }}
                     >
                       <a href={item.link} target="_blank" rel="noreferrer">
-                        <img src={item.img} alt="partners" />
+                        <img src={item.img} alt="partners" width={128} />
                       </a>
                     </div>
-                  </SwiperSlide>
+                  // </SwiperSlide>
                 ))}
-              </Swiper>
-              <Swiper
+              {/* </Swiper> */}
+              {/* <Swiper
                 modules={[Scrollbar, A11y]}
                 spaceBetween={60}
                 scrollbar={{ draggable: true }}
@@ -114,7 +116,7 @@ function Partner(props) {
                     </div>
                   </SwiperSlide>
                 ))}
-              </Swiper>
+              </Swiper> */}
             </div>
           </div>
         </div>
