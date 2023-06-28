@@ -9,7 +9,7 @@ import img8 from "../images/logo/tarntor.png"
 import img9 from "../images/logo/peradox.png"
 import img10 from "../images/logo/whalecoin.jpg"
 import img11 from "../images/logo/arcdex.jpg"
-import img12 from "../images/logo/logo12.png"
+import img12 from "../images/logo/dexview.jpg"
 import img13 from "../images/logo/logo13.png"
 import img14 from "../images/logo/logo14.png"
 import img15 from "../images/logo/logo15.png"
@@ -62,9 +62,10 @@ const dataPartner = [
     img: img11,
     link: "https://arcdex.io/",
   },
-  // {
-  //     img: img12,
-  // },
+  {
+    img: img12,
+    link: "https://www.dexview.com/bsc/0x7BB224B336ECa8f5FfBf45bD460eFc61f018F962"
+  },
   // {
   //     img: img13,
   // },
